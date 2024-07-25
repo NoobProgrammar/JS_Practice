@@ -15,9 +15,14 @@ const sym2 = Symbol("fool")
 
 console.log(sym1 === sym2);
 
+// primitive
+
 console.table([typeof constent,typeof userName,typeof stare,typeof number, typeof nothing, typeof nobody, typeof sym]);
 
+// non-primitive
+
 let heros = ["superman","thor"]
+
 let object = {
     name: "yourName",
     age: 18,
@@ -27,3 +32,5 @@ let object = {
 let myFunction = function () {
     console.log("Just a function!!!");
 }
+
+// stack:(primitive), heap:(non-primitive)
