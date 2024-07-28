@@ -3,9 +3,10 @@ let age = 50
 
 console.log(`Hello, my name is ${userName}. I'm ${age} years old.`);
 
-const superHero = "Iron Man"
+const superHero = "Iron Man "
 
 // console.log(superHero[2]);
+
 // console.log(superHero.length);
 
 // console.log(superHero.toUpperCase());
@@ -27,3 +28,14 @@ const superHero = "Iron Man"
 
 // console.log(url.includes('yourname'));
 // console.log(url.split('/'));
+
+// console.log(superHero.charCodeAt(3)); //utf-16 code units
+
+// const cat1 = "tiger"
+// const cat2 = "lion"
+// console.log(cat1.concat(" and ",cat2));
+
+// let statement = "I here by declare this land belongs to the government of xyz"
+// console.log(statement.lastIndexOf("land"));
+
+
