@@ -8,21 +8,21 @@ const User = {
     [mySy]: "Symbol"
 }
 
-// console.log(User.age);
-// console.log(User["email"]);
-// console.log(User[mySy]);
+console.log(User.age);
+console.log(User["email"]);
+console.log(User[mySy]);
 
 User.location = "Dubai"
 
-// Object.freeze(User)
+Object.freeze(User)
 
-// console.log(User);
+console.log(User);
 
 User.greetings = function() {
     console.log(`Hello, ${this.userName}`);
 }
 
-// console.log(User.greetings());
+console.log(User.greetings());
 
 const obj1 = new Object()
 const obj2 = new Object()
@@ -37,10 +37,10 @@ obj2.realName = {
 }
 
 const obj3 = Object.assign({}, obj1, obj2)
-// console.log(obj3);
+console.log(obj3);
 
-// console.log(Object.keys(User));
-// console.log(Object.values(User));
+console.log(Object.keys(User));
+console.log(Object.values(User));
 
 const allUsers = [
     {
@@ -60,7 +60,7 @@ const allUsers = [
     },
 ]
 
-// console.log(allUsers[1].id);
+console.log(allUsers[1].id);
 
 const shop = {
     sName: "shopshop",
