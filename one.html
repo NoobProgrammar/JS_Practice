@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>DOM 2</title>
+</head>
+<body class="bg-gray-500">
+    
+</body>
+
+<script>
+    const newDiv = document.createElement('div')
+    console.log(newDiv);
+    newDiv.className = "bg-gray-300 text-center"
+    newDiv.innerText = "Creating Element"
+
+    document.body.appendChild(newDiv)
+    
+</script>
+</html>
